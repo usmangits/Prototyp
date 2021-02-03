@@ -3,6 +3,7 @@ import UIKit
 //Globale Variablen deklartion
 struct MyVariables {
     static var gloErg:Float = 1.23432
+    static var taeglichePkt:Int = 0
 }
 
 class BViewController: UIViewController {
