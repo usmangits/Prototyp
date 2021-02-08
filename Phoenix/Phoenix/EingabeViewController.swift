@@ -132,7 +132,15 @@ class EingabeViewController: UIViewController {
         
         
         ergOutlet.text = "Ihre täglichen Punkte:\(punkte)"
+        MyVariables.taeglichePkt = punkte
         
     }
+    
+
+    @IBAction func hombt(_ sender: Any) {
+        
+        self.performSegue(withIdentifier: "ViewController", sender: self)
+    }
+    
     
 }

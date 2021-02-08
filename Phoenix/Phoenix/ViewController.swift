@@ -7,6 +7,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    
     @IBAction func NextAvatarView(_ sender: Any) {
         
         self.performSegue(withIdentifier: "AvatarViewController", sender: self)
@@ -17,6 +18,21 @@ class ViewController: UIViewController {
         
         self.performSegue(withIdentifier: "BViewController", sender: self)
     }
+    
+    
+    @IBOutlet weak var imagVi: UIImageView!
+    @IBOutlet weak var tpLabel: UILabel!
+    
+    
+    @IBAction func aktibt(_ sender: UIButton) {
+        imagVi.image = UIImage(named: "vorneDuennM")
+        tpLabel.text = "Täglichen Punkte:\(MyVariables.taeglichePkt)"
+    }
+    
+    
+   
+    
+    
     
 }
 
