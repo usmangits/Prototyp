@@ -5,6 +5,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        
     }
 
     
@@ -30,7 +32,10 @@ class ViewController: UIViewController {
     }
     
     
-   
+    @IBAction func essenbt(_ sender: Any) {
+        self.performSegue(withIdentifier: "EssenViewController", sender: self)
+    }
+    
     
     
     
