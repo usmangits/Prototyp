@@ -38,6 +38,10 @@ class ViewController: UIViewController {
     
     
     
+    @IBAction func trainingbt(_ sender: Any) {
+        self.performSegue(withIdentifier: "TrainingViewController", sender: self)
+    }
+    
     
 }
 

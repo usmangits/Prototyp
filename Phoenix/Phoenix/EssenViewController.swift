@@ -10,7 +10,6 @@ class EssenViewController: UIViewController{
 
  
     @IBAction func wasserBt(_ sender: UIButton) {
-        
         // create the alert
                let alert = UIAlertController(title: "Wasser hinzugefügt", message: "Durch die zufuhr von Wasser haben Sie 0 WW verloren", preferredStyle: .alert)
 
@@ -20,6 +19,7 @@ class EssenViewController: UIViewController{
                // show the alert
                self.present(alert, animated: true, completion: nil)
     }
+    
     
     
     

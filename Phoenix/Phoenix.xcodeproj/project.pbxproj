@@ -18,6 +18,7 @@
 		B61573E525AB125200512CCB /* AvatarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61573E425AB125200512CCB /* AvatarViewController.swift */; };
 		B61573F225AB24A200512CCB /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61573F125AB24A200512CCB /* BViewController.swift */; };
 		B631233525D1D9C3001BDB73 /* EssenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B631233425D1D9C3001BDB73 /* EssenViewController.swift */; };
+		B661422025DB0F6900704DF6 /* TrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B661421F25DB0F6900704DF6 /* TrainingViewController.swift */; };
 		B6FB681425CAF90A00331A5E /* StarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FB681325CAF90A00331A5E /* StarViewController.swift */; };
 		B6FB681925CAFA3700331A5E /* EingabeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FB681825CAFA3700331A5E /* EingabeViewController.swift */; };
 /* End PBXBuildFile section */
@@ -57,6 +58,7 @@
 		B61573E425AB125200512CCB /* AvatarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarViewController.swift; sourceTree = "<group>"; };
 		B61573F125AB24A200512CCB /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
 		B631233425D1D9C3001BDB73 /* EssenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssenViewController.swift; sourceTree = "<group>"; };
+		B661421F25DB0F6900704DF6 /* TrainingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingViewController.swift; sourceTree = "<group>"; };
 		B6FB681325CAF90A00331A5E /* StarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewController.swift; sourceTree = "<group>"; };
 		B6FB681825CAFA3700331A5E /* EingabeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EingabeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -121,6 +123,7 @@
 				B6FB681325CAF90A00331A5E /* StarViewController.swift */,
 				B6FB681825CAFA3700331A5E /* EingabeViewController.swift */,
 				B631233425D1D9C3001BDB73 /* EssenViewController.swift */,
+				B661421F25DB0F6900704DF6 /* TrainingViewController.swift */,
 			);
 			path = Phoenix;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B661422025DB0F6900704DF6 /* TrainingViewController.swift in Sources */,
 				B61573B625AB115A00512CCB /* ViewController.swift in Sources */,
 				B631233525D1D9C3001BDB73 /* EssenViewController.swift in Sources */,
 				B61573B225AB115A00512CCB /* AppDelegate.swift in Sources */,
