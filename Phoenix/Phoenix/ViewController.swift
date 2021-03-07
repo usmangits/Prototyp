@@ -27,8 +27,22 @@ class ViewController: UIViewController {
     
     
     @IBAction func aktibt(_ sender: UIButton) {
-        imagVi.image = UIImage(named: "vorneDuennM")
-        tpLabel.text = "Täglichen Punkte:\(MyVariables.taeglichePkt)"
+        if (MyVariables.shop == 0) {
+            imagVi.image = UIImage(named: "vorneDuennM")
+        }
+        else if (MyVariables.shop == 1) {
+            imagVi.image = UIImage(named: "hutGanz")
+        }
+        else if (MyVariables.shop == 2) {
+            imagVi.image = UIImage(named: "schuheGanz")
+        }
+       else if (MyVariables.shop == 3) {
+        imagVi.image = UIImage(named: "hutUNDschuhe")
+    }
+        
+        
+        
+        tpLabel.text = "WWP:\(MyVariables.taeglichePkt)"
     }
     
     
