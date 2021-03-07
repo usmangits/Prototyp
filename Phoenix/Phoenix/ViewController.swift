@@ -42,6 +42,9 @@ class ViewController: UIViewController {
         self.performSegue(withIdentifier: "TrainingViewController", sender: self)
     }
     
+    @IBAction func shopbt(_ sender: Any) {
+        self.performSegue(withIdentifier: "ShopViewController", sender: self)
+    }
     
 }
 

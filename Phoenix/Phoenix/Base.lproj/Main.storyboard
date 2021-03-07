@@ -25,15 +25,6 @@
                                     <action selector="NextAvatarView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kOh-DW-vjH"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="auj-Hj-WCx">
-                                <rect key="frame" x="79" y="731" width="246" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
-                                <state key="normal" title="BMI Rechner"/>
-                                <connections>
-                                    <action selector="NextBView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Gd-q2-5KC"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PYE-gq-Vtp">
                                 <rect key="frame" x="144" y="657" width="116" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -63,11 +54,29 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="csn-ij-oRL">
-                                <rect key="frame" x="309" y="675" width="55" height="30"/>
+                                <rect key="frame" x="268" y="658" width="145" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="43"/>
                                 <state key="normal" title="Training"/>
                                 <connections>
                                     <action selector="trainingbt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4qM-dH-f19"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Wl-UM-BN9">
+                                <rect key="frame" x="290" y="748" width="36" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Shop"/>
+                                <connections>
+                                    <action selector="shopbt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d3N-tv-2Fm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="auj-Hj-WCx">
+                                <rect key="frame" x="13" y="731" width="246" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <state key="normal" title="BMI Rechner"/>
+                                <connections>
+                                    <action selector="NextBView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Gd-q2-5KC"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -81,6 +90,7 @@
                         <segue destination="YTK-uV-79g" kind="showDetail" identifier="BViewController" id="230-aN-6EV"/>
                         <segue destination="O1h-nN-3V9" kind="showDetail" identifier="EssenViewController" id="z1a-E8-28v"/>
                         <segue destination="ViR-o0-xAo" kind="showDetail" identifier="TrainingViewController" id="Sii-xS-0vi"/>
+                        <segue destination="seT-9d-3wo" kind="showDetail" identifier="ShopViewController" id="Sfa-G2-XKW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -625,6 +635,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0ev-Zo-kkC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="128.98550724637681" y="857.8125"/>
+        </scene>
+        <!--Shop View Controller-->
+        <scene sceneID="1Ja-j0-zfS">
+            <objects>
+                <viewController id="seT-9d-3wo" customClass="ShopViewController" customModule="Phoenix" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="V2x-JI-SWK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="YOp-2O-NFn"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HOB-yW-sn7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1216" y="964"/>
         </scene>
     </scenes>
     <resources>
