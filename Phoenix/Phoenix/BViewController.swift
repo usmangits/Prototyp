@@ -5,6 +5,7 @@ struct MyVariables {
     static var gloErg:Float = 1.23432
     static var taeglichePkt:Int = 0
     static var shop:Int = 0
+    static var coins:Int = 20
 }
 
 class BViewController: UIViewController {

@@ -24,6 +24,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var imagVi: UIImageView!
     @IBOutlet weak var tpLabel: UILabel!
+    @IBOutlet weak var coinsLabel: UILabel!
     
     
     @IBAction func aktibt(_ sender: UIButton) {
@@ -40,9 +41,9 @@ class ViewController: UIViewController {
         imagVi.image = UIImage(named: "hutUNDschuhe")
     }
         
+        tpLabel.text = "WWP: \(MyVariables.taeglichePkt)"
+        coinsLabel.text = "PC: \(MyVariables.coins)"
         
-        
-        tpLabel.text = "WWP:\(MyVariables.taeglichePkt)"
     }
     
     
@@ -58,6 +59,10 @@ class ViewController: UIViewController {
     
     @IBAction func shopbt(_ sender: Any) {
         self.performSegue(withIdentifier: "ShopViewController", sender: self)
+    }
+    
+    @IBAction func challengebt(_ sender: Any) {
+        self.performSegue(withIdentifier: "ChallengeViewController", sender: self)
     }
     
 }

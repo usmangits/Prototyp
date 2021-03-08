@@ -29,7 +29,9 @@ class ShopViewController: UIViewController {
             MyVariables.shop = 3
         }
         
-        let alert = UIAlertController(title: "Hut hinzugefügt", message: "Durch den Kauf von einem Hut hast du .. Coins verloren", preferredStyle: .alert)
+        MyVariables.coins = MyVariables.coins - 5
+        
+        let alert = UIAlertController(title: "Hut hinzugefügt", message: "Durch den Kauf von einem Hut hast du 5 Coins verloren", preferredStyle: .alert)
 
         // add an action (button)
         alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
@@ -45,6 +47,16 @@ class ShopViewController: UIViewController {
         else if (MyVariables.shop == 1){
             MyVariables.shop = 3
         }
+        
+        MyVariables.coins = MyVariables.coins - 10
+        
+        let alert = UIAlertController(title: "Schuhe hinzugefügt", message: "Durch den Kauf von neuen Schuhen hast du 10 Coins verloren", preferredStyle: .alert)
+
+        // add an action (button)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+
+        // show the alert
+        self.present(alert, animated: true, completion: nil)
     }
     
     @IBAction func anzugKaufen(_ sender: UIButton) {

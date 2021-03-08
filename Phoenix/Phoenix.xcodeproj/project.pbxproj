@@ -20,6 +20,7 @@
 		B631233525D1D9C3001BDB73 /* EssenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B631233425D1D9C3001BDB73 /* EssenViewController.swift */; };
 		B661422025DB0F6900704DF6 /* TrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B661421F25DB0F6900704DF6 /* TrainingViewController.swift */; };
 		B6DFACD825F53245001F6ADD /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DFACD725F53245001F6ADD /* ShopViewController.swift */; };
+		B6DFACE525F63680001F6ADD /* ChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DFACE425F63680001F6ADD /* ChallengeViewController.swift */; };
 		B6FB681425CAF90A00331A5E /* StarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FB681325CAF90A00331A5E /* StarViewController.swift */; };
 		B6FB681925CAFA3700331A5E /* EingabeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FB681825CAFA3700331A5E /* EingabeViewController.swift */; };
 /* End PBXBuildFile section */
@@ -61,6 +62,7 @@
 		B631233425D1D9C3001BDB73 /* EssenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssenViewController.swift; sourceTree = "<group>"; };
 		B661421F25DB0F6900704DF6 /* TrainingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingViewController.swift; sourceTree = "<group>"; };
 		B6DFACD725F53245001F6ADD /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		B6DFACE425F63680001F6ADD /* ChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeViewController.swift; sourceTree = "<group>"; };
 		B6FB681325CAF90A00331A5E /* StarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewController.swift; sourceTree = "<group>"; };
 		B6FB681825CAFA3700331A5E /* EingabeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EingabeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,6 +129,7 @@
 				B631233425D1D9C3001BDB73 /* EssenViewController.swift */,
 				B661421F25DB0F6900704DF6 /* TrainingViewController.swift */,
 				B6DFACD725F53245001F6ADD /* ShopViewController.swift */,
+				B6DFACE425F63680001F6ADD /* ChallengeViewController.swift */,
 			);
 			path = Phoenix;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6DFACE525F63680001F6ADD /* ChallengeViewController.swift in Sources */,
 				B661422025DB0F6900704DF6 /* TrainingViewController.swift in Sources */,
 				B61573B625AB115A00512CCB /* ViewController.swift in Sources */,
 				B6DFACD825F53245001F6ADD /* ShopViewController.swift in Sources */,
