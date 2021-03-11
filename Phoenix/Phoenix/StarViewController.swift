@@ -23,7 +23,7 @@ class StarViewController: UIViewController {
         self.performSegue(withIdentifier: "EingabeViewController", sender: self)
         }
         else{
-            let alert = UIAlertController(title: "Anmeldung Fehlgeschlagen", message: "Benutzername oder Passwort ist falsch!", preferredStyle: .alert)
+            let alert = UIAlertController(title: "Anmeldung fehlgeschlagen", message: "Benutzername oder Passwort ist falsch!", preferredStyle: .alert)
 
             // add an action (button)
             alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
